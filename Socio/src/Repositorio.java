@@ -14,7 +14,7 @@ public class Repositorio {
 
   public void remover(String m) {
     for(int i = 0; i < indice; i++) {
-      if(bd[i].getMatricula() == m) {
+      if(bd[i].matricula == m) {
         bd[i] = bd[indice-1];
         bd[indice-1] = null;
         indice--;
