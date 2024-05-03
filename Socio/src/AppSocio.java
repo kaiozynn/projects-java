@@ -1,4 +1,4 @@
-public class App {
+public class AppSocio {
     public static void main(String[] args) throws Exception {
         Repositorio rp = new Repositorio();
         Estudante e1 = new Estudante("Caio", "20470", 1000, 19, "IFBA", "Pública" );
