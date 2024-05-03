@@ -1,4 +1,4 @@
-public class App {
+public class AppLabo {
     public static void main(String[] args) {
         BancoDeDados bd = new BancoDeDados();
         TesteEva te1 = new TesteEva(1, "BR30951-B", "2823");
