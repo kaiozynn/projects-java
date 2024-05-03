@@ -15,7 +15,6 @@ public class Deck {
   public void inserir(Carta c) {
     deck[indice] = c;
     indice++;
-    System.out.println("Carta adicionada com sucesso!!");
   }
 
   public void remover(Carta c) {
@@ -58,7 +57,7 @@ public class Deck {
   }
 
   public void iniciarGame() {
-    for(int i = 0; i<3;i++) {
+    for(int i = 0; i<6;i++) {
       int auxi = randomNum(0, indice-1);
       mao[i] = deck[auxi];
       deck[auxi] = deck[indice-1];
@@ -66,7 +65,7 @@ public class Deck {
       indice--;
     }
 
-    for(int i = 0; i<3; i++) {
+    for(int i = 0; i<6; i++) {
       mao[i].imprimir();
       System.out.println("----------------------------------X");
     }
